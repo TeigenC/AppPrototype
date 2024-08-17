@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bloom.MainPage"
+             Padding="10"
+             BackgroundColor="White">
+
+
+    <VerticalStackLayout Spacing="20" Padding="10,20,10,10">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Bloom" FontSize="24" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="End" HorizontalOptions="Center" Orientation="Horizontal" Spacing="20">
+            <Button Text="Calendar" Clicked="OnCalendarButtonClicked" />
+            <Button Text="Info" Clicked="OnInfoButtonClicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

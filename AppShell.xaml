@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Bloom.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Bloom"
+    xmlns:pages="clr-namespace:Bloom.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Bloom">
+
+    <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}"/>
+    <ShellContent Route="CalendarPage" ContentTemplate="{DataTemplate pages:CalendarPage}"/>
+    <ShellContent Route="InfoPage" ContentTemplate="{DataTemplate pages:InfoPage}"/>
+
+</Shell>
